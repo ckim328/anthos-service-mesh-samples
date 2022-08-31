@@ -36,7 +36,7 @@ jobs:
           git checkout -b run-ci
           
           git add .
-          git commit -m "CI kustomize file"
+          # git commit -m "CI kustomize file"
           # git push -u -f origin run-ci 
 
           if [  $(git status --porcelain | wc -l) -eq "0"  ]; then
